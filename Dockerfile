@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.3
+FROM hypriot/rpi-alpine-scratch:latest
 ENTRYPOINT ["/bin/logspout"]
 VOLUME /mnt/routes
 EXPOSE 80
